@@ -1,11 +1,43 @@
 html{
 	padding: 0px;
 	margin: 0px;
+	text-align: center;
 }
 
-#header{
-	font-size: 100px;
+header{
+	font-size: 30px;
+	position: fixed;
+  	top: 0;
+  	min-height: 75px;
+  	padding: 0px 20px;
+  	display: flex;
+  	justify-content: space-around;
+  	align-items: center;
+  	background-color: #eee;
+  	width: 100%;
+  	@media (max-width: 600px) {
+    flex-wrap: wrap;
+  }
+
 }
+li{
+	  list-style: none;
+}
+ul{
+	display: inline-block;
+}
+
 h1{
-	color: black;
+	color: red;	
+}
+
+#goodDays{
+	text-align: left;
+	background-color: lightgray;
+
+}
+
+#navbar {
+	width: 100%;
+
 }
